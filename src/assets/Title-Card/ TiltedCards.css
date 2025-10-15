@@ -9,4 +9,11 @@
   font-family: "Figtree";
   font-weight: 900;
   box-shadow: 0 5px 30px #06001059;
+  align-self: baseline;
+}
+i{
+  background: rgba(0, 0, 0, 0.822);
+  border-radius: 15px;
+   box-shadow: 0 5px 30px #06001059;
+     padding: 0.1rem 0.4em;
 }
