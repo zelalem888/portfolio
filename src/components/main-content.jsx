@@ -67,8 +67,8 @@ const  Profile = ()=>{
   handle="javicodes"
   status="Online"
   contactText="Contact Me"
-  iconUrl="/src/assets/photo/20250823_084014-Photoroom.png"
-  avatarUrl="/src/assets/photo/20250823_084014-Photoroom.png"
+  iconUrl="/assets/photo/20250823_084014-Photoroom.png"
+  avatarUrl="/assets/photo/20250823_084014-Photoroom.png"
   showUserInfo={false}
   enableTilt={true}
   enableMobileTilt={false}
