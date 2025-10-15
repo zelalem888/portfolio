@@ -14,7 +14,7 @@ const Project = () => {
 const TiltedCards = () => {
   return (
     <TiltedCard
-      imageSrc="/src/assets/photo/20250823_084014.jpg"
+      imageSrc="../assets/photo/20250823_084014.jpg"
       altText="Zelalem Legesse"
       captionText="Zelalem"
       containerHeight="300px"
