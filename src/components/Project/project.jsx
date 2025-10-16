@@ -50,12 +50,12 @@ const Projects = () => {
             <p className="text-3xl text-center font-[ubuntu] font-bold">
               Dizz Blog.
             </p>
-            <p className="text-lg leading-8 font-[ubuntu] w-[70%] mx-auto max-md:w-[100%] project-description">
+            <p className="text-lg leading-8 font-[ubuntu] w-[70%] mx-auto max-md:w-[100%] max-md:text-md project-description">
               A NextJS-powered blog website with dynamic post rendering, using a
               JSON-based backend (or API) to manage and display articles with
               routing and responsive design.
             </p>
-            <p className="text-center text-3xl font-bold flex justify-evenly max-md:text-2xl max-md:grid max-md:grid-cols-2">
+            <p className="text-center text-3xl font-bold flex justify-evenly max-md:text-lg max-md:grid max-md:grid-cols-2">
               <span>NextJS</span> <span>MongoDB</span>
               <span>NodeJS</span>
             </p>
@@ -85,11 +85,11 @@ const Projects = () => {
             <p className="text-3xl text-center font-[ubuntu] font-bold">
               Random Movies
             </p>
-            <p className="text-lg leading-8 font-[ubuntu] w-[70%] mx-auto max-md:w-[100%] project-description">
+            <p className="text-lg leading-8 font-[ubuntu] w-[70%] mx-auto max-md:w-[100%] max-md:text-md project-description">
               A React-based movie website that dynamically fetches and displays
               movie data from the TMDB API with search and detail features.
             </p>
-            <p className="text-center text-3xl font-bold flex justify-evenly max-md:grid max-md:grid-cols-2">
+            <p className="text-center text-3xl font-bold flex justify-evenly max-md:text-lg  max-md:grid max-md:grid-cols-2">
               <span>React</span> <span>Tailwind</span> <span>NodeJS</span>
             </p>
             <p className="text-center text-3xl font-bold flex gap-10 justify-center">
@@ -130,11 +130,11 @@ const Projects = () => {
             <p className="text-3xl text-center font-[ubuntu] font-bold">
               Mortgage Calculator
             </p>
-            <p className="text-lg leading-8 font-[ubuntu] w-[70%] mx-auto max-md:w-[100%] project-description">
+            <p className="text-lg leading-8 font-[ubuntu] w-[70%] mx-auto max-md:w-[100%] max-md:text-md project-description">
               This mortgage calculator estimates your monthly payments based on
               loan amount, interest rate, term, and down payment.
             </p>
-            <p className="text-center text-3xl font-bold flex justify-evenly max-md:grid max-md:grid-cols-2">
+            <p className="text-center text-3xl font-bold flex justify-evenly max-md:text-lg  max-md:grid max-md:grid-cols-2">
               <span>HTML</span> <span>CSS</span> <span>JAVASCRIPT</span>
             </p>
             <p className="text-center text-3xl font-bold flex gap-10 justify-center">
@@ -169,12 +169,12 @@ const Projects = () => {
             <p className="text-3xl text-center font-[ubuntu] font-bold">
               Tip Calculator
             </p>
-            <p className="text-lg leading-8 font-[ubuntu] w-[70%] mx-auto max-md:w-[100%] project-description">
+            <p className="text-lg leading-8 font-[ubuntu] w-[70%] mx-auto max-md:w-[100%] max-md:text-md project-description">
               A simple and responsive tip calculator built with HTML, CSS, and
               vanilla JavaScript that calculates tip and total per person based
               on user input.
             </p>
-            <p className="text-center text-3xl font-bold flex justify-evenly max-md:grid max-md:grid-cols-2">
+            <p className="text-center text-3xl font-bold flex justify-evenly max-md:text-lg  max-md:grid max-md:grid-cols-2">
               <span>HTML</span> <span>CSS</span> <span>JAVASCRIPT</span>
             </p>
             <p className="text-center text-3xl font-bold flex gap-10 justify-center">
