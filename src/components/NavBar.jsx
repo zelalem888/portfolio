@@ -1,5 +1,5 @@
-import Shuffle from "../assets/Sheffle";
 import GooeyNav from "../assets/GooeyNav/GooeyNav";
+import TrueFocus from "../assets/True-focus";
 
 const NavBar = () => {
   const items = [
@@ -9,8 +9,8 @@ const NavBar = () => {
     { label: "Contact", href: "#" },
   ];
   return (
-    <div className="grid grid-cols-2 items-center pt-10">
-      <ShuffleWord />
+    <div className="grid grid-cols-2 items-center pt-10 max-md:grid-cols-1">
+      <TrueFocuses />
       <div className="flex justify-evenly">
         <GooeyNav
           items={items}
@@ -27,21 +27,19 @@ const NavBar = () => {
   );
 };
 
-const ShuffleWord = () => (
-  <Shuffle
-    text="Portfolio"
-    tag="h5"
-    className="font-['Press Start 2P', system-ui] text-white"
-    shuffleDirection="right"
-    duration={0.35}
-    animationMode="evenodd"
-    shuffleTimes={1}
-    ease="power3.out"
-    stagger={0.03}
-    threshold={0.1}
-    triggerOnce={true}
-    triggerOnHover={true}
-    respectReducedMotion={true}
-  />
-);
+const TrueFocuses = () => {
+  return (
+    <div className="text-white font-[ubuntu]">
+      <TrueFocus
+        sentence="MY PORTFOLIO"
+        manualMode={false}
+        blurAmount={5}
+        borderColor="red"
+        animationDuration={0.7}
+        pauseBetweenAnimations={1.4}
+      />
+    </div>
+  );
+};
+
 export default NavBar;

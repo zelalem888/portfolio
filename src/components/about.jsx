@@ -28,7 +28,7 @@ const Gradient = () => {
 const Folder = () => {
   return (
     <div className="mt-4">
-      <div className="grid grid-cols-3 justify-items-center">
+      <div className="grid grid-cols-3 justify-items-center max-md:grid-cols-1">
         <div className="grid grid-cols-1 gap-4 justify-items-center">
           <p className="text-white text-2xl font-bold mb-4"> Resume</p>
           <img

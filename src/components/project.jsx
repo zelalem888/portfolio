@@ -51,7 +51,7 @@ const TiltedCards = () => {
   ];
 
   return (
-    <div className="grid grid-cols-3 w-[80%] mx-auto gap-y-10" id="project">
+    <div className="grid grid-cols-3 w-[80%] mx-auto gap-y-10 max-md:grid-cols-1" id="project">
       {ImageData.map((item) => {
         return (
           <TiltedCard
