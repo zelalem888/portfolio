@@ -3,13 +3,13 @@ import TrueFocus from "../assets/True-focus";
 
 const NavBar = () => {
   const items = [
-    { label: "Home", href: "#" },
+    { label: "Home", href: "#home" },
     { label: "Projects", href: "#project" },
-    { label: "About", href: "#" },
+    { label: "About", href: "#about" },
     { label: "Contact", href: "#" },
   ];
   return (
-    <div className="grid grid-cols-2 items-center pt-10 max-md:grid-cols-1">
+    <div className="grid grid-cols-2 items-center pt-10 max-md:grid-cols-1" id="home">
       <TrueFocuses />
       <div className="flex justify-evenly">
         <GooeyNav

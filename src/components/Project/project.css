@@ -1,0 +1,25 @@
+.one , .two{
+    transform: scale(0.92);
+}
+.project-description{
+    word-spacing: 50%;
+    line-height: 2rem;
+}
+ .projects{
+    filter: grayscale(80%);
+    transition: all 0.5s ease-in;
+}
+ .projects:hover{
+    filter: grayscale(0%) saturate(3);
+    transform: scale(1.01);
+    box-shadow: 0 0 5px #00eeff99;
+
+}
+@media screen and (max-width:768px) {
+    
+    .project-description{
+    word-spacing: 30%;
+    line-height: 1.4rem;
+}
+
+}

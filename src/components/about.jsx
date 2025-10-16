@@ -4,7 +4,7 @@ import "./about.css";
 const About = () => {
   return (
     <>
-      <div className="mt-10">
+      <div className="mt-10" id="about">
         <Gradient />
       </div>
       <Folder />
