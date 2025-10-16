@@ -9,9 +9,14 @@ const NavBar = () => {
     { label: "Contact", href: "#" },
   ];
   return (
-    <div className="grid grid-cols-2 items-center pt-10 max-md:grid-cols-1" id="home">
-      <TrueFocuses />
-      <div className="flex justify-evenly">
+    <div
+      className="grid grid-cols-2 items-center pt-10 max-lg:grid-cols-1"
+      id="home"
+    >
+      <div className="order-1 max-md:order-2 max-md:my-5">
+        <TrueFocuses />
+      </div>
+      <div className="order-2 max-md:order-1 max-md:flex max-md:mx-auto">
         <GooeyNav
           items={items}
           particleCount={15}
@@ -29,7 +34,7 @@ const NavBar = () => {
 
 const TrueFocuses = () => {
   return (
-    <div className="text-white font-[ubuntu]">
+    <div className="text-white font-[ubuntu] max-md:text-2xl">
       <TrueFocus
         sentence="MY PORTFOLIO"
         manualMode={false}

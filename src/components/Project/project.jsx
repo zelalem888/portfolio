@@ -34,7 +34,7 @@ const Projects = () => {
   return (
     <div className="flex flex-col gap-y-10">
       <div>
-        <div className="relative overflow-hidden grid grid-cols-2 gap-4 max-md:gap-0 max-md:grid-cols-1 bg-gray-900 rounded-2xl w-[70%] mx-auto projects">
+        <div className="relative overflow-hidden grid grid-cols-2 gap-4 max-md:gap-0 max-lg:grid-cols-1 bg-gray-900 rounded-2xl w-[70%] mx-auto projects">
           <div className="absolute inset-0 z-0">
             <Aurora
               colorStops={["#00F0FF", "#3A00FF", "#00FFB8"]}
@@ -72,7 +72,7 @@ const Projects = () => {
       </div>
 
       <div>
-        <div className="relative overflow-hidden grid grid-cols-2 gap-4 max-md:grid-cols-1   bg-gray-900 rounded-2xl w-[70%] mx-auto projects">
+        <div className="relative overflow-hidden grid grid-cols-2 gap-4 max-lg:grid-cols-1   bg-gray-900 rounded-2xl w-[70%] mx-auto projects">
           <div className="absolute inset-0 z-0">
             <Aurora
               colorStops={["#00F0FF", "#3A00FF", "#00FFB8"]}
@@ -111,7 +111,7 @@ const Projects = () => {
       </div>
 
       <div>
-        <div className="relative overflow-hidden grid grid-cols-2 gap-4 max-md:grid-cols-1 bg-gray-900 rounded-2xl w-[70%] mx-auto projects">
+        <div className="relative overflow-hidden grid grid-cols-2 gap-4 max-lg:grid-cols-1 bg-gray-900 rounded-2xl w-[70%] mx-auto projects">
           <div className="absolute inset-0 z-0">
             <Aurora
               colorStops={["#00F0FF", "#3A00FF", "#00FFB8"]}
@@ -156,7 +156,7 @@ const Projects = () => {
       </div>
 
       <div>
-        <div className="relative overflow-hidden grid grid-cols-2 gap-4 max-md:grid-cols-1  bg-gray-900 rounded-2xl w-[70%] mx-auto projects">
+        <div className="relative overflow-hidden grid grid-cols-2 gap-4 max-lg:grid-cols-1  bg-gray-900 rounded-2xl w-[70%] mx-auto projects">
           <div className="absolute inset-0 z-0">
             <Aurora
              colorStops={["#00F0FF", "#3A00FF", "#00FFB8"]}

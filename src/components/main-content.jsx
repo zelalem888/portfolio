@@ -6,13 +6,13 @@ import ProfileCard from "../assets/Profile-card/ProfileCard";
 const MainContent = () => {
   return (
     <div>
-      <div className="grid grid-cols-2 min-h-[400px] max-md:grid-cols-1">
-        <div className="grid grid-cols-1 place-content-center gap-6 w-[80%] mx-auto">
+      <div className="grid grid-cols-2 min-h-[400px] w-[70%] mx-auto max-md:grid-cols-1">
+        <div className="grid grid-cols-1 place-content-center gap-6">
           <TextTyping />
           <SplitTexting />
           
         </div>
-        <div className="flex justify-self-center items-center">
+        <div className="flex justify-self-end items-center">
          <Profile />
         </div>
       </div>
@@ -25,10 +25,10 @@ const TextTyping = () => {
     <TextType
       text={[
         "Am Zelalem Legesse",
-        "I am FullStack Developer",
+        "Am FullStack Developer",
         "Am Web Developer",
       ]}
-      className="text-white text-3xl font-ubuntu font-bold "
+      className="text-white text-3xl font-ubuntu font-bold max-md:text-2xl max-md:my-3"
       typingSpeed={75}
       pauseDuration={1500}
       showCursor={true}
@@ -43,7 +43,7 @@ const SplitTexting = () => {
     <SplitText
       text="Hey, I’m Uranus Destroyer, a Full Stack Web Developer who builds fast, clean, and modern websites that actually work. I turn ideas into smooth digital experiences — from the front-end beauty to the back-end brains.
             I love clean code, smart design, and a good challenge (plus a bit of coffee doesn’t hurt ☕).  Let’s turn your idea into something awesome!"
-      className="text-white font-semibold text-center indent-.5"
+      className="text-white font-semibold text-center indent-.5 max-md:font-normal max-md:mb-4"
       delay={20}
       duration={0.3}
       ease="power3.out"
@@ -60,11 +60,11 @@ const SplitTexting = () => {
 
 const  Profile = ()=>{
   return(
-    <div className="">
+    <div className="max-md:mb-5">
     <ProfileCard
   name="Zelalem Legesse"
   title="Full Stack Developer"
-  handle="javicodes"
+  handle="Zelalem"
   status="Online"
   contactText="Contact Me"
   iconUrl="/assets/photo/20250823_084014-Photoroom.png"
