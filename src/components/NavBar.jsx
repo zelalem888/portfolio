@@ -4,7 +4,7 @@ import GooeyNav from "../assets/GooeyNav/GooeyNav";
 const NavBar = () => {
   const items = [
     { label: "Home", href: "#" },
-    { label: "Projects", href: "#" },
+    { label: "Projects", href: "#project" },
     { label: "About", href: "#" },
     { label: "Contact", href: "#" },
   ];

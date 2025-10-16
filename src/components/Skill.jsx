@@ -34,7 +34,7 @@ const techLogos = [
 ];
 
 
-const About = () => {
+const Skill = () => {
   return(
      <div className="text-white w-[80%] mx-auto" style={{ height: '200px', position: 'relative', overflow: 'hidden'}}>
       <LogoLoop
@@ -54,4 +54,4 @@ const About = () => {
     </div>
   )
 };
-export default About;
+export default Skill;

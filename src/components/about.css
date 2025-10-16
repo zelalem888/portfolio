@@ -1,0 +1,19 @@
+.cv {
+  border-radius: 10px;
+  transition: all 0.4s ease-in-out;
+  filter: grayscale(100%);
+}
+.cv-link{
+    transition: all 0.5s ease-in;
+}
+
+.cv:hover {
+  border-radius: 20px;
+  box-shadow: 0 0 25px 5px rgba(255, 255, 255, 0.3),
+              0 0 45px 15px rgba(160, 240, 255, 0.2);
+  filter: saturate(8);
+  transform: rotate(5deg) scale(1.1);
+}
+.cv-link:hover{
+    transform: translateY(-5px) scale(1.1) rotate(3deg);
+}

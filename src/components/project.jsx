@@ -1,15 +1,18 @@
 import ScrollFloat from "../assets/ScrollFloat/ScrollFloat";
 import TiltedCard from "../assets/Title-Card/Title-Card";
+import GradientText from "../assets/Gradient-text/Gradient-Text";
 import "../assets/Title-Card/ TiltedCards.css";
 
-
 const Project = () => {
-  return <TiltedCards />;
+  return (
+    <>
+    <div className="mb-10">
+      <Gradient />
+    </div>
+      <TiltedCards />
+    </>
+  );
 };
-
-
-
-
 
 const TiltedCards = () => {
   const ImageData = [
@@ -48,7 +51,7 @@ const TiltedCards = () => {
   ];
 
   return (
-    <div className="grid grid-cols-3 w-[80%] mx-auto gap-y-10">
+    <div className="grid grid-cols-3 w-[80%] mx-auto gap-y-10" id="project">
       {ImageData.map((item) => {
         return (
           <TiltedCard
@@ -70,10 +73,10 @@ const TiltedCards = () => {
                   <p className="tilted-card-demo-text">{item.title}</p>
                   <div className="flex justify-evenly gap-5 self-end ">
                     <a href={item.github} target="_blank">
-                      <i className="bi bi-github text-2xl text-white"></i>
+                      <i className="bi bi-github text-2xl text-white project-icons"></i>
                     </a>
                     <a href={item.link} target="_blank">
-                      <i className="bi bi-box-arrow-up-right text-2xl text-white"></i>
+                      <i className="bi bi-box-arrow-up-right text-2xl text-white project-icons"></i>
                     </a>
                   </div>
                 </div>
@@ -83,6 +86,18 @@ const TiltedCards = () => {
         );
       })}
     </div>
+  );
+};
+const Gradient = () => {
+  return (
+    <GradientText
+      colors={["#ffffff", "#d9faff", "#a0e7ff", "#d9faff", "#ffffff"]}
+      animationSpeed={8}
+      showBorder={false}
+      className="text-6xl font-bold"
+    >
+      Projects
+    </GradientText>
   );
 };
 
