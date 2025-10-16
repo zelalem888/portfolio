@@ -19,7 +19,7 @@ const TiltedCards = () => {
       altText: "Dizz Blog.",
       github: "https://github.com/zelalem888/DizzBlog.",
       link: "https://dizz-blog.vercel.app/",
-      image: "/public/assets/photo/project/dizz.png",
+      image: "/assets/photo/project/dizz.png",
     },
     {
       title: "Random Movies",
@@ -27,7 +27,7 @@ const TiltedCards = () => {
       altText: "Random Movies",
       github: "https://github.com/zelalem888/movie",
       link: "https://movie-swart-gamma.vercel.app/",
-      image: "/public/assets/photo/project/movie.png",
+      image: "/assets/photo/project/movie.png",
     },
     {
       title: "Mortgage Calculator",
@@ -35,7 +35,7 @@ const TiltedCards = () => {
       altText: "Mortgage Calculator",
       github: "https://github.com/zelalem888/mortgage-repayment-calculator",
       link: "https://mortgage-repayment-calculator-sage-xi.vercel.app/",
-      image: "/public/assets/photo/project/morgage.png",
+      image: "/assets/photo/project/morgage.png",
     },
     {
       title: "tip Calculator",
@@ -43,7 +43,7 @@ const TiltedCards = () => {
       altText: "tip Calculator",
       github: "https://github.com/zelalem888/tip-calculator",
       link: "https://tip-calculator-amber-eight.vercel.app/",
-      image: "/public/assets/photo/project/tip.png",
+      image: "/assets/photo/project/tip.png",
     },
   ];
 
