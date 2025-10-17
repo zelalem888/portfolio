@@ -1,5 +1,5 @@
-import React,{useRef} from "react";
-import emailjs  from "@emailjs/browser";
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 import GradientText from "../../assets/Gradient-text/Gradient-Text";
 import "./style.css";
 const Contact = () => {
@@ -32,48 +32,65 @@ const ContactTitle = () => {
 };
 
 const Details = () => {
-  const form = useRef()
+  const form = useRef();
 
-  const sendEmail = (e)=>{
-    e.preventDefault()
+  const sendEmail = (e) => {
+    e.preventDefault();
 
-    emailjs.sendForm('default_service','template_jf1hd4v',form.current,{publicKey:"mWE79mxrIXH8ilM-0"}
-    ).then(()=>{
-      console.log("success!")
-      document.querySelector(".nameInput").value = ""
-      document.querySelector(".emailInput").value = ""
-      document.querySelector(".messageInput").value = ""
-
-    },
-  (error)=>{
-    console.log("error", error.text)
-  })
-
-  }
+    emailjs
+      .sendForm("default_service", "template_jf1hd4v", form.current, {
+        publicKey: "mWE79mxrIXH8ilM-0",
+      })
+      .then(
+        () => {
+          console.log("success!");
+          document.querySelector(".nameInput").value = "";
+          document.querySelector(".emailInput").value = "";
+          document.querySelector(".messageInput").value = "";
+        },
+        (error) => {
+          console.log("error", error.text);
+        }
+      );
+  };
   return (
     <div className="">
-      <div className="grid grid-cols-2 text-white">
+      <div className="grid grid-cols-2 max-lg:grid-cols-1 text-white">
         <div></div>
         <form ref={form} onSubmit={sendEmail}>
-          <div className="grid gap-4 mt-6">
+          <div className="grid gap-4 mt-6 justify-items-center">
             <div className="flex gap-9">
               <label>Name: </label>
               <input
                 className="outline-2 outline-gray-400 rounded-sm py-2 nameInput"
-                type="text" name="user_name"
+                type="text"
+                name="user_name"
+                required
               />
             </div>
             <div className="flex gap-10">
               <label>Email: </label>
-              <input className="outline-2 outline-gray-400 rounded-sm py-2 emailInput" type="email" name="user_email" />
+              <input
+                className="outline-2 outline-gray-400 rounded-sm py-2 emailInput"
+                type="email"
+                name="user_email"
+                required
+              />
             </div>
             <div className="flex gap-4">
               <label>Message: </label>
-              <textarea className="outline-2 outline-gray-400 rounded-sm py-2 messageInput" name="message" />
+              <textarea
+                className="outline-2 outline-gray-400 rounded-sm py-2 messageInput"
+                name="message"
+                required
+              />
             </div>
-            <div >
-              <input className="w-[45%] bg-blue-700/50 text-center font-bold border-1 border-gray-900 rounded-md py-2 btn" type="submit" value="send" />
-            </div>
+
+            <input
+              className="w-[45%] bg-blue-700/50 text-center font-bold border-1 border-gray-900 rounded-md py-2 btn"
+              type="submit"
+              value="send"
+            />
           </div>
         </form>
       </div>
