@@ -18,7 +18,7 @@ const Gradient = () => {
       colors={["#ffffff", "#d9faff", "#a0e7ff", "#d9faff", "#ffffff"]}
       animationSpeed={8}
       showBorder={false}
-      className="text-5xl font-bold"
+      className="text-5xl font-bold text-center max-md:text-3xl"
     >
       Wanna Know More about Me.
     </GradientText>
@@ -33,7 +33,7 @@ const Folder = () => {
           <p className="text-white text-2xl font-bold mb-4"> Resume</p>
           <img
             className="cv"
-            src="/public/assets/photo/Full Stack Web Developer Resume Template [free download].jpeg"
+            src="/assets/photo/Full Stack Web Developer Resume Template [free download].jpeg"
             style={{ height: "250px" }}
           />
           <a className="cv-link">
@@ -45,7 +45,7 @@ const Folder = () => {
           <p className="text-white text-2xl font-bold mb-4"> CV</p>
           <img
             className="cv"
-            src="/public/assets/photo/Full Stack Web Developer Resume Template [free download].jpeg"
+            src="/assets/photo/Full Stack Web Developer Resume Template [free download].jpeg"
             style={{ height: "250px" }}
           />
           <a className="cv-link">
@@ -57,7 +57,7 @@ const Folder = () => {
           <p className="text-white text-2xl font-bold mb-4"> Certificate</p>
           <img
             className="cv"
-            src="/public/assets/photo/Full Stack Web Developer Resume Template [free download].jpeg"
+            src="/assets/photo/Full Stack Web Developer Resume Template [free download].jpeg"
             style={{ height: "250px" }}
           />
           <a className="cv-link">

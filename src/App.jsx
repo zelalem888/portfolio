@@ -4,7 +4,7 @@ import MainContent from "./components/main-content";
 import Skill from "./components/Skill";
 import Project from "./components/Project/project";
 import About from "./components/about";
-import Contact from "./components/contact";
+import Contact from "./components/contact/contact";
 function App() {
   return (
     <>

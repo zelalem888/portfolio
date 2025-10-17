@@ -23,7 +23,7 @@ const Gradient = () => {
       colors={["#ffffff", "#d9faff", "#a0e7ff", "#d9faff", "#ffffff"]}
       animationSpeed={8}
       showBorder={false}
-      className="text-6xl font-bold"
+      className="text-6xl font-bold max-md:text-3xl"
     >
       Projects
     </GradientText>
