@@ -6,7 +6,7 @@ const NavBar = () => {
     { label: "Home", href: "#home" },
     { label: "Projects", href: "#project" },
     { label: "About", href: "#about" },
-    { label: "Contact", href: "#" },
+    { label: "Contact", href: "#contact" },
   ];
   return (
     <div

@@ -5,6 +5,7 @@ import Skill from "./components/Skill";
 import Project from "./components/Project/project";
 import About from "./components/about";
 import Contact from "./components/contact/contact";
+import Scroll from "./components/scroll";
 function App() {
   return (
     <>
@@ -15,6 +16,7 @@ function App() {
       <Project />
       <About  />
       <Contact />
+      <Scroll />
     </>
   );
 }

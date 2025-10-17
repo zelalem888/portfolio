@@ -5,7 +5,7 @@ import "./style.css";
 const Contact = () => {
   return (
     <div>
-      <div className="mt-10">
+      <div className="mt-10" id="contact">
         <ContactTitle />
       </div>
       <div></div>
