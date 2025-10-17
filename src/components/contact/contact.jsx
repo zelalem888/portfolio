@@ -56,48 +56,80 @@ const Details = () => {
 
   return (
     <div className="">
-      <div className="grid grid-cols-2 max-lg:grid-cols-1 text-white">
+      <div className="grid grid-cols-[3fr_2fr] max-lg:grid-cols-1 text-white">
         <div>
-          <div className="grid grid-cols-2">
-          <div></div>
-          <div className="grid justify-center">
-            <p className="text-center text-2xl">UpWork</p>
-            <img className="h-[12rem] rounded-2xl " src="/public/assets/photo/qr-code.png" />
-            <p className="text-center text-2xl">Scan Me!</p>
-          </div>
+          <div className="grid grid-cols-2 max-lg:grid-cols-[2fr_3fr]">
+            <div className="grid grid-cols-1 justify-center items-center">
+              <div className="grid grid-cols-2 gap-2 items-center">
+                <a className="grid justify-self-end icons" href="https://www.linkedin.com/in/zelalemlegesse/">
+                  <i className="bi bi-linkedin text-3xl icons-linkedin"></i>
+                </a>
+                <span className="iconsName max-lg:text-sm">LinkedIn</span>
+              </div>
+              <div className="grid grid-cols-2 gap-2 items-center">
+                <a className="grid justify-self-end" href="https://github.com/zelalem888/">
+                  <i className="bi bi-github text-3xl icons-github"></i>
+                </a>
+                <span className="max-lg:text-sm">Github</span>
+              </div>
+              <div className="grid grid-cols-2 gap-2 items-center">
+                <a className="grid justify-self-end" href="https://wa.me/qr/X64XOVQNDMBID1">
+                  <i className="bi bi-whatsapp text-3xl icons-whatsapp"></i>
+                </a>
+                <span className="max-lg:text-sm">Whatsapp</span>
+              </div>
+              <div className="grid grid-cols-2 gap-2 items-center">
+                <a className="grid justify-self-end" href="https://t.me/Zlelew">
+                  <i className="bi bi-telegram text-3xl icons-telegram"></i>
+                </a>
+                <span className="max-lg:text-sm">Telegram</span>
+              </div>
+            </div>
+
+
+            <div className="grid justify-start">
+              <p className="text-center text-2xl max-lg:text-xl">UpWork</p>
+              <img
+                className="h-[12rem] max-lg:h-[10rem] rounded-2xl"
+                src="/public/assets/photo/qr-code.png"
+              />
+              <p className="text-center text-2xl max-lg:text-xl">Scan Me!</p>
+            </div>
           </div>
         </div>
+
+
         <form ref={form} onSubmit={sendEmail}>
-          <div className="grid gap-4 mt-6 justify-items-center">
-            <div className="flex gap-9">
-              <label>Name: </label>
+          <div className="grid gap-4 mt-6 max-lg:mx-auto w-[100%]">
+            <div className="grid grid-cols-[1fr_6fr] max-lg:grid-cols-1  justify-items-start max-lg:justify-items-center">
+              <label className="max-lg:w-[80%] max-lg:mx-auto">Name: </label>
               <input
-                className="outline-2 outline-gray-400 rounded-sm py-2 nameInput"
+                className="outline-2 outline-gray-400 rounded-sm py-2 w-[60%] max-lg:w-[80%]  nameInput"
                 type="text"
                 name="user_name"
                 required
               />
             </div>
-            <div className="flex gap-10">
-              <label>Email: </label>
+            <div className="grid grid-cols-[1fr_6fr] max-lg:grid-cols-1  justify-items-start max-lg:justify-items-center">
+              <label className="max-lg:w-[80%] max-lg:mx-auto">Email: </label>
               <input
-                className="outline-2 outline-gray-400 rounded-sm py-2 emailInput"
+                className="outline-2 outline-gray-400 rounded-sm py-2 w-[60%] max-lg:w-[80%] emailInput"
                 type="email"
                 name="user_email"
                 required
               />
             </div>
-            <div className="flex gap-4">
-              <label>Message: </label>
+            <div className="grid grid-cols-[1fr_6fr] max-lg:grid-cols-1  justify-items-start max-lg:justify-items-center">
+              <label className="max-lg:w-[80%] max-lg:mx-auto">Message: </label>
               <textarea
-                className="outline-2 outline-gray-400 rounded-sm py-2 messageInput"
+                className="outline-2 outline-gray-400 rounded-sm py-2 w-[60%] max-lg:w-[80%] messageInput"
                 name="message"
                 required
               />
             </div>
 
             <input
-              className="w-[45%] bg-blue-700/50 text-center font-bold border-1 border-gray-900 rounded-md py-2 btn"
+              className="max-lg:w-[80%] max-lg:mx-auto w-[50%] bg-blue-700/50 text-center font-bold border-1 border-gray-900 rounded-md py-2 btn"
               type="submit"
               value="send"
             />

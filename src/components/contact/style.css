@@ -8,3 +8,30 @@
     transform: scale(1.05);
     background-color: blue;
 }
+
+.icons-linkedin{
+    transition: all .7s ease-in-out;
+}
+.icons-linkedin:hover{
+    transform: scale(1.07) rotate(10deg);
+    color: #0A66C2;
+}
+.icons-github{
+    transition: all .7s ease-in-out;
+}
+.icons-github:hover{
+    transform: scale(1.07) rotate(10deg);
+    color: #000000;
+}.icons-whatsapp{
+    transition: all .7s ease-in-out;
+}
+.icons-whatsapp:hover{
+    transform: scale(1.07) rotate(10deg);
+    color: #0dff00;
+}.icons-telegram{
+    transition: all .7s ease-in-out;
+}
+.icons-telegram:hover{
+    transform: scale(1.07) rotate(10deg);
+    color: #0088cc;
+}

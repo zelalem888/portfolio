@@ -17,7 +17,7 @@ function App() {
       <Project />
       <About  />
       <Contact />
-      <Scroll />
+      {/* <Scroll /> */}
       <FooterDate />
     </>
   );
