@@ -56,9 +56,9 @@ const Details = () => {
 
   return (
     <div className="">
-      <div className="grid grid-cols-[3fr_2fr] max-lg:grid-cols-1 text-white">
+      <div className="grid grid-cols-[3fr_2fr] max-lg:grid-cols-1 text-white max-lg:mt-5">
         <div>
-          <div className="grid grid-cols-2 max-lg:grid-cols-[2fr_3fr]">
+          <div className="grid grid-cols-2 max-lg:grid-cols-[2fr_3fr] max-lg:gap-8 ">
             <div className="grid grid-cols-1 justify-center items-center">
               <div className="grid grid-cols-2 gap-2 items-center">
                 <a className="grid justify-self-end icons" href="https://www.linkedin.com/in/zelalemlegesse/">
@@ -91,7 +91,7 @@ const Details = () => {
               <p className="text-center text-2xl max-lg:text-xl">UpWork</p>
               <img
                 className="h-[12rem] max-lg:h-[10rem] rounded-2xl"
-                src="/public/assets/photo/qr-code.png"
+                src="/assets/photo/qr-code.png"
               />
               <p className="text-center text-2xl max-lg:text-xl">Scan Me!</p>
             </div>
