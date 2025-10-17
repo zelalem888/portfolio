@@ -1,4 +1,4 @@
-import GradientText from "../assets/Gradient-text/Gradient-Text";
+import GradientText from "../../assets/Gradient-text/Gradient-Text";
 import "./about.css";
 
 const About = () => {

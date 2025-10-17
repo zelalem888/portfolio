@@ -434,8 +434,8 @@
 
 @media (max-width: 768px) {
   .pc-card {
-    height: 70svh;
-    max-height: 450px;
+    height: 60svh;
+    max-height: 400px;
   }
 
   .pc-details {
@@ -482,8 +482,8 @@
 
 @media (max-width: 480px) {
   .pc-card {
-    height: 60svh;
-    max-height: 380px;
+    height: 40svh;
+    max-height: 350px;
   }
 
   .pc-details {
@@ -533,8 +533,8 @@
 
 @media (max-width: 320px) {
   .pc-card {
-    height: 55svh;
-    max-height: 320px;
+    height: 45svh;
+    max-height: 300px;
   }
 
   .pc-details h3 {
