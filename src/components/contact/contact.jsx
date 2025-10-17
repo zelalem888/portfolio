@@ -53,10 +53,20 @@ const Details = () => {
         }
       );
   };
+
   return (
     <div className="">
       <div className="grid grid-cols-2 max-lg:grid-cols-1 text-white">
-        <div></div>
+        <div>
+          <div className="grid grid-cols-2">
+          <div></div>
+          <div className="grid justify-center">
+            <p className="text-center text-2xl">UpWork</p>
+            <img className="h-[12rem] rounded-2xl " src="/public/assets/photo/qr-code.png" />
+            <p className="text-center text-2xl">Scan Me!</p>
+          </div>
+          </div>
+        </div>
         <form ref={form} onSubmit={sendEmail}>
           <div className="grid gap-4 mt-6 justify-items-center">
             <div className="flex gap-9">

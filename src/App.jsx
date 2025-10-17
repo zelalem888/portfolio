@@ -6,6 +6,7 @@ import Project from "./components/Project/project";
 import About from "./components/about/about";
 import Contact from "./components/contact/contact";
 import Scroll from "./components/scroll";
+import FooterDate from "./components/footerDate";
 function App() {
   return (
     <>
@@ -17,6 +18,7 @@ function App() {
       <About  />
       <Contact />
       <Scroll />
+      <FooterDate />
     </>
   );
 }
